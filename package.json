@@ -1,0 +1,17 @@
+{
+  "name": "fetch-playground",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/andyjakubowski/fetch-playground.git",
+  "author": "Andy Jakubowski <hello@andyjakubowski.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "serve": "11.3.2"
+  },
+  "scripts": {
+    "start": "browser-sync start --server './' --files '.' --startPath 'index.html'",
+    "serve": "npx serve -s"
+  }
+}
